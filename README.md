@@ -23,22 +23,26 @@ A modern, responsive home page for a fictional IELTS Institute built with React,
 ## 📦 Installation
 
 1. **Clone the repository**
+
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mohdaffankhan/IELTS-Excellence-Academy
    cd ielts-institute
    ```
 
 2. **Install dependencies**
+
    ```bash
    pnpm install
    ```
 
 3. **Start development server**
+
    ```bash
    pnpm dev
    ```
 
 4. **Build for production**
+
    ```bash
    pnpm build
    ```
@@ -89,6 +93,7 @@ src/
 ## 🎨 Design System
 
 ### Color Palette
+
 - **Primary**: Blue (#2563eb) - Professional, trustworthy
 - **Secondary**: Gray (#64748b) - Neutral, readable
 - **Accent**: Amber (#f59e0b) - Attention-grabbing, energetic
@@ -96,11 +101,13 @@ src/
 - **Surface**: Light gray (#f8fafc) - Subtle contrast
 
 ### Typography
+
 - **Font Family**: System fonts (system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto)
 - **Hierarchy**: Clear heading levels with appropriate sizing
 - **Line Height**: 1.6 for optimal readability
 
 ### Components
+
 - **Button**: Three variants (primary, secondary, outline) with hover states
 - **Card**: Subtle shadows with smooth hover animations
 - **Responsive Grid**: CSS Grid and Flexbox for layout
@@ -115,6 +122,7 @@ The application is built with a mobile-first approach:
 - **Desktop** (> 1024px): Full multi-column layouts with optimal spacing
 
 ### Breakpoints
+
 - `sm`: 640px
 - `md`: 768px
 - `lg`: 1024px
@@ -154,11 +162,13 @@ All content is managed through the `src/constants/data.ts` file:
 ## 🚀 Deployment
 
 ### GitHub Pages
+
 1. Build the project: `pnpm build`
 2. Deploy the `dist` folder to GitHub Pages
 3. Configure custom domain if needed
 
 ### Vercel
+
 1. Connect your GitHub repository to Vercel
 2. Configure build settings:
    - Build Command: `pnpm build`
@@ -166,6 +176,7 @@ All content is managed through the `src/constants/data.ts` file:
 3. Deploy automatically on push to main branch
 
 ### Netlify
+
 1. Connect your GitHub repository to Netlify
 2. Configure build settings:
    - Build Command: `pnpm build`
@@ -200,6 +211,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📞 Support
 
 For questions or support, please contact:
+
 - Email: info@ielts-excellence.com
 - Phone: +1 (555) 123-4567
 
